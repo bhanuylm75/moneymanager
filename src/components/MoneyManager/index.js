@@ -22,7 +22,7 @@ console.log(data)
 
 class MoneyManager extends Component {
   state = {
-    transactionsList: data,
+    transactionsList: data||[],
     titleInput: '',
     amountInput: '',
     optionId: transactionTypeOptions[0].optionId,
